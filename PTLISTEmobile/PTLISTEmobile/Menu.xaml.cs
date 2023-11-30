@@ -17,6 +17,7 @@ namespace PTLISTEmobile
             InitializeComponent();
             var initialPage = new ContactPage();
             initialPage.Title = "Contact"; // Set the title if needed
+            
 
             Detail = new NavigationPage(initialPage);
             IsPresented = false;
