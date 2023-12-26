@@ -16,12 +16,7 @@ namespace PTLISTEmobile
         public ContactPage()
         {
             InitializeComponent();
-            contacts = new ObservableCollection<Contact>
-            {
-                 new Contact { name = "Mehdi", status = "Disponible", imagesource = "test.jpg" },
-                 new Contact { name = "Fedi", status = "Occupé", imagesource = "test2.jpg" },
-            };
-            listcontacts.ItemsSource = contacts;
+
         }
 
 

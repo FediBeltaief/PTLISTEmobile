@@ -10,8 +10,7 @@
                         <ViewCell>
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="80"/>
-                                    <ColumnDefinition Width="*"/>
+                                    
                                 </Grid.ColumnDefinitions>
                                 <Image Grid.RowSpan="2" Grid.Column="0" Source="{Binding imagesource}"/>
                                 <Label Grid.Row="0" Grid.Column="1" Text="{Binding name}" FontAttributes="Bold"/>

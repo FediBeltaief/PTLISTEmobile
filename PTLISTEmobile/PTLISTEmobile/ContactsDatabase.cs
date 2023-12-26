@@ -33,7 +33,6 @@ namespace PTLISTEmobile
         public Task<Contact> GetContactAsync(int id)
         {
             return _database.Table<Contact>().Where(i => i.ID == id).FirstOrDefaultAsync();
-
         }
         public Task<int> DeleteContactAsync(Contact contact)
         {
